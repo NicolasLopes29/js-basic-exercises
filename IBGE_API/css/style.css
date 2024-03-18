@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    transition: all 0.3s ease;
+}
+
+body {
+	font-family: 'Inter', sans-serif;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+	background: #0c192c;
+}
+
+#titulo {
+    font-size: 50px;
+    text-align: center;
+    margin-top: 20px;
+    background: -webkit-linear-gradient(45deg, rgb(104, 8, 189), rgb(76, 26, 133));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+@media screen and (max-width: 768px) {
+    #titulo {
+        font-size: 35px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    #titulo {
+        font-size: 25px;
+    }
+}
+
+#explicacao{
+	font-size: 20px;
+	text-align: center;
+	margin-top: 5px;
+	margin-bottom: 20px;
+	color: #484848;
+}
+body {
+    background-color: #f4f4f4;
+    font-family: Inter, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header {
+    margin: 40px 50px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.header h1 {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #b07125;
+    margin: 20px;
+    width: 100%;
+}
+
+h2, p {
+    font-size: 30px;
+    padding-top: 20px;
+    text-align: center;
+}
+
+#nome {
+    margin-top: 50px;
+    background-color: #d7d7d7;
+    width: 200px;
+    height: 50px;
+    font-size: 15px;
+    border-radius: 5px;
+    border: 1px solid #000;
+    padding-left: 20px;
+    text-align: center;
+}
+
+#botao {
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+    background-color: #d7d7d7;
+    border-radius: 16px;
+    margin-top: 20px;
+    text-align: center;
+    cursor: pointer;
+    transition: background-color 1s ease;
+	background-color: #9d9dff;
+	transition: transform 1s;
+	transform: translateY(0) scale(1);
+}
+
+#botao:hover {
+    background-color: #b0b0b0;
+	transform: translateY(-5px);
+	transform: translateY(10px) scale(1.2);
+}
+
+.tabelaResult {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.periodo, .frequencia, .periodoResult, .frequenciaResult {
+    width: 300px;
+    height: 20px;
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.frequencia, .frequenciaResult {
+    background-color: #9d9dff;
+    margin-left: 10px;
+}
+
+.periodo, .periodoResult {
+    background-color: #d0b084;
+}
+
+.periodoResult, .frequenciaResult {
+    background-color: #c5c5ff;
+    margin-bottom: 20px;
+}

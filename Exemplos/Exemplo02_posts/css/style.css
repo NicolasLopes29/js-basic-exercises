@@ -1,0 +1,13 @@
+.post{
+        width: 50vw;
+        border: 1px solid #222;
+        border-radius: 5px;
+        padding: 10px;
+        margin: 5px 0px;
+        text-transform: capitalize;
+
+}
+
+.post .title{
+        text-decoration: underline;
+}

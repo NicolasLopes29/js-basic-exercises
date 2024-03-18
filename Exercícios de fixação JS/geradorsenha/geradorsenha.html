@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <h1>Exercícios de fixação</h1>
+    <h2>GERADOR DE SENHAS</h2>
+    <h3>Desenvolver um aplicativo que gere senhas com os seguintes requisitos funcionais:
+        2.3.1. Informar o tamanho da senha - máximo 20 caracteres;
+        2.3.2. Informar a quantidade de senhas que deseja gerar - máximo dez senhas;
+        2.3.3. Permitir ou não a geração da senha com caracteres especiais - !@#$%&*()+=-*./;
+        2.3.4. Permitir ou não a geração da senha com números;
+        2.3.5. Permitir ou não a geração da senha com letras maiúsculas;
+        2.3.6. Botão para a geração da senha;
+        2.3.7. Botão para limpar todos os inputs;
+        2.3.8. textarea para exibir a(s) senha(s);</h3>
+
+ 
+    <label for="tamanhoSenha">Tamanho (Máx. 20):</label>
+    <input type="range" id="tamanhoSenha" name="tamanhoSenha" min="1" max="20">
+    <br>
+
+    <label for="quantidadeSenhas">Quantidade de senhas (Máx. 10):</label>
+    <input type="range" id="quantidadeSenhas" name="quantidadeSenhas" min="1" max="10">
+    <br>
+
+    <label for="caracteresEspeciais">Possui caracteres especiais?</label>
+    <input id="caracteresEspeciais" type="checkbox">
+    <br>
+
+    <label for="numeros">Possui números?</label>
+    <input id="numeros" type="checkbox">
+    <br>
+
+    <label for="letrasMaiusculas">Possui letras maiúsculas?</label>
+    <input id="letrasMaiusculas" type="checkbox">
+    <br>
+
+    <button id="gerarSenha">Gerar Senha</button>
+    
+    <button id="limparInputs">Limpar Inputs</button>
+
+    <button id="limparSenhas">Limpar Senhas</button>
+    
+    <br>
+
+    <textarea id="senhasgeradas" rows="5" readonly style="resize: none;"></textarea>
+
+
+
+
+    <script src="js/geradorsenha.js"></script>
+</body>
+</html>

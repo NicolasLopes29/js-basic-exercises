@@ -1,0 +1,19 @@
+.user{
+    width: 50vw;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.user h2{
+    margin-top: 0px;
+
+
+}
+
+.user p{
+    text-transform: capitalize;
+    margin-bottom: 5px;
+    text-align: left;
+}
